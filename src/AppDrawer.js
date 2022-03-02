@@ -1,6 +1,6 @@
-import './App.css';
+import './AppDrawer.css';
 
-function App() {
+function AppDrawer() {
   return (
     <div className="App">
       <div>
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppDrawer;
