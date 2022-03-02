@@ -7,6 +7,7 @@ function AppDrawer() {
         <h2>SubTest :</h2>
         Sub module
       </div>
+      <div style={{width:"50px", backgroundColor:"red", height:"50px", position:"absolute", top:"50px", left:"150px"}}></div>
     </div>
   );
 }
