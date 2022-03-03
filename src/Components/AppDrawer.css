@@ -1,0 +1,97 @@
+.ant-drawer-body {
+    padding: 0px;
+  }
+  
+  .ant-drawer-body .drawer_top .drawer_top_bar {
+    border-radius: 0;
+    background: url("../assets/Images/drawer_bg.png");
+    text-align: center;
+    height: 158px;
+    border-bottom-color: #64d6f3;
+    background-size: cover;
+  }
+  
+  .settings_drawer .ant-drawer-content-wrapper {
+    width: 256px !important;
+  }
+  
+  .settings_drawer .circle-border {
+    width: 106px;
+    height: 53px;
+    background: #64d6f3;
+    position: relative;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    top: -12%;
+    z-index: 100;
+    border-top-left-radius: 53px;
+    border-top-right-radius: 53px;
+  }
+  
+  .settings_drawer .circle-image img {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    transform: translateY(-103%) translateX(-50%);
+    left: 50%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: 100;
+  }
+  
+  .ie_userIcon {
+    transform: translateY(-103%) translateX(78%) !important;
+  }
+  
+  .settings_drawer .user-name {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 600;
+  }
+  
+  .settings_drawer .buttom {
+    padding: 0px 14px 10px 10px;
+  }
+  
+  .ant-menu-item {
+    height: 30px;
+  }
+  
+  .ant-menu-item .ant-menu-item-only-child {
+    height: 30px;
+  }
+  
+  .settings_drawer .ant-menu-item-group-title {
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 600;
+  }
+  
+  .settings_drawer .divider {
+    border-top: 0.75px solid rgba(0, 0, 0, 0.1) !important;
+    margin: 15px 0;
+  }
+  
+  .settings_drawer .ant-menu-inline {
+    border: none !important;
+    padding-top: 14px;
+  }
+  
+  .ant-menu-inline .ant-menu-selected::after,
+  .ant-menu-inline .ant-menu-item-selected::after {
+    transform: scaleY(0);
+    opacity: 1;
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+      opacity 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .ant-btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 24px;
+  }
+  
+  .ant-btn-text :hover {
+    color: #0088c1;
+  }
+  
