@@ -2,7 +2,7 @@ import React from 'react';
 import AppDrawer from './Components/AppDrawer';
 import AppHeader from './Components/AppHeader';
 
-function App() {
+function SubApp() {
   
   return (
     <div className="App">
@@ -18,4 +18,4 @@ function App() {
 
 }
 
-export default App;
+export default SubApp;
