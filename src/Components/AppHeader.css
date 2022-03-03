@@ -1,0 +1,29 @@
+.ant-layout-header {
+    background: #00acf4 !important;
+    padding: 0 15px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    border-bottom: 1px solid #0088c1 !important;
+  }
+  
+  .Header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .numintec_logo img {
+    width: 150px;
+    vertical-align: middle;
+  }
+  
+  .user_info img {
+    width: 34px;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin: -7px 10px -5px 0;
+  }
+  
+  .user_info {
+    cursor: pointer;
+  }
+  

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AppDrawer from './AppDrawer';
+import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppDrawer />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
