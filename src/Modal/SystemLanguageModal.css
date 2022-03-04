@@ -1,0 +1,80 @@
+.custom-modal-body-text .list_language_btn {
+  width: 100%;
+  height: 41px !important;
+  text-align: left !important;
+  padding: 10px 15px !important;
+  margin-top: 0px;
+  margin-bottom: -1px !important;
+  background-color: transparent !important;
+  border: 1px solid #ddd !important;
+  border-radius: 0 !important;
+}
+
+.list_language_btn:hover {
+  text-decoration: none;
+  color: #555;
+  background-color: #f5f5f5 !important;
+  border-color: #ddd !important;
+}
+
+.list_language_btn:first-child {
+  border-top-right-radius: 4px !important;
+  border-top-left-radius: 4px !important;
+}
+
+.list_language_btn:last-child {
+  border-bottom-right-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+.list_language_btn.active {
+  z-index: 2;
+  color: #fff !important;
+  background-color: #00acf4 !important;
+  border-color: #00acf4 !important;
+}
+
+.list_language_btn img {
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+
+.ant-modal-footer {
+  padding: 0 !important;
+  display: flex;
+}
+
+.ant-modal-footer .ant-btn + .ant-btn:not(.ant-dropdown-trigger) {
+  width: 50% !important;
+}
+
+.ant-modal-footer .ant-btn {
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  background: transparent;
+  font-weight: 400;
+  color: #007bff;
+  border-width: 0px;
+  border-radius: 0px;
+  border-bottom-left-radius: 4px;
+  border-right-width: 1px;
+  margin: 0px;
+}
+
+.ant-modal-footer button + button {
+  margin-left: 0 !important;
+}
+.ant-modal-footer .ant-btn-primary {
+  font-weight: bold !important;
+  border-radius: 0px !important;
+  border-bottom-right-radius: 4px !important;
+  border-right-width: 0px !important;
+  margin-left: 0px;
+}
+
+.ant-modal-footer .ant-btn:hover {
+  color: #0056b3;
+  background-color: #f5f5f5 !important;
+  border-color: #e5e5e5 !important;
+}

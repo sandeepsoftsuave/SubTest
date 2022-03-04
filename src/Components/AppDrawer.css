@@ -1,5 +1,5 @@
 .ant-drawer-body {
-    padding: 0px;
+    padding: 0px !important;
   }
   
   .ant-drawer-body .drawer_top .drawer_top_bar {

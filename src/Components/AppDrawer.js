@@ -2,11 +2,12 @@ import React from "react";
 import { Drawer, Menu, Divider, Button } from "antd";
 import "./AppDrawer.css";
 import { useSelector, useDispatch } from "react-redux";
-import { setDrawerOpened } from "../Actions/CommonActions.js";
+import { setDrawerOpened, setShowLanguageModal } from "../Actions/CommonActions.js";
 import NumintecLogo from "../assets/Images/logo-navbar.svg";
 import { ReactComponent as SystemLanguageIcon } from "../assets/Images/systemLanguageIcon.svg";
 import UserIcon from "../assets/Images/user.png";
 import { LogoutOutlined } from "@ant-design/icons";
+import SystemLanguageModal from "../Modal/SystemLanguageModal";
 
 function AppDrawer() {
   const dispatch = useDispatch();
@@ -35,7 +36,7 @@ function AppDrawer() {
   const onButttonClick = (e) => {
     closeDrawer();
     if (e.key === "systemLanguage") {
-      // dispatch(setShowLanguageModal(true));
+      dispatch(setShowLanguageModal(true));
     }
   };
   const drawerData = {
@@ -89,12 +90,12 @@ function AppDrawer() {
             </div>
           </div>
           <div className="buttom" style={{ height: "calc( 100% - 220px)" }}>
-            <diV className="settings_user_name">{userName}</diV>
+            <div className="user-name">{userName}</div>
             <Menu mode="inline">
               <Menu.ItemGroup
                 key="userSettings"
                 title={settingsText.toUpperCase()}
-                class="itemGroup"
+                className="itemGroup"
               >
                 {drawerData.settings.map((data) => {
                   return (
@@ -120,7 +121,7 @@ function AppDrawer() {
                 })}
               </Menu.ItemGroup>
               <Divider className="divider" />
-              <Menu.ItemGroup key="My_Apps" title={myAppsText}>
+              <Menu.ItemGroup key="My_Apps" title={myAppsText.toUpperCase()}>
                 <Button
                   type="text"
                   href="/#"
@@ -145,7 +146,7 @@ function AppDrawer() {
           </div>
         </Drawer>
       )}
-        {/* <SystemLanguageModal /> */}
+        <SystemLanguageModal />
     </div>
   );
 }

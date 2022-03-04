@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import SubApp from './SubApp'
 import { Provider } from "react-redux";
 import 'antd/dist/antd.min.css';
+// import "antd/dist/antd.css";
 import store from "./store";
 
 function ConfiguredApp() {
